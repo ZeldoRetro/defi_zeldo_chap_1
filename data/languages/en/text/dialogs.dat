@@ -1,0 +1,840 @@
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+C'est un interrupteur
+de cristal. Frappe-le
+avec quelque chose...
+]],
+}
+
+dialog{
+  id = "_empty_chest",
+  icon = "41",
+  skip = "all",
+  text = [[
+Ce coffre est vide ! $0
+Tant pis pour toi !
+]],
+}
+
+dialog{
+  id = "_need_magic",
+  skip = "all",
+  text = [[
+You are short of magic power ! 
+You can't use this item for 
+the moment !
+]],
+}
+
+dialog{
+  id = "_quit",
+  question = "1",
+  text = [[
+Would you like to keep playing ?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "_save",
+  question = "1",
+  text = [[
+Would you like to save ?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.1",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé une
+Flèche !$0
+Utilise l'Arc et les
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.1.1",
+  skip = "all",
+  text = [[
+Flèches pour vaincre
+des ennemis à
+distance et sans risque!
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.2",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé 5
+Flèches !$0
+Utilise l'Arc et les
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.3",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé 10
+Flèches !$0
+Utilise l'Arc et les
+]],
+}
+
+dialog{
+  id = "_treasure.big_key.1",
+  icon = "73",
+  skip = "current",
+  text = [[
+Tu as trouvé la Grande Clé ! $0
+
+
+Tu peux maintenant te rendre
+dans le repaire du Boss.
+]],
+}
+
+dialog{
+  id = "_treasure.blue_key.1",
+  icon = "121",
+  skip = "current",
+  text = [[
+You found the Blue
+Key ! $0
+
+You can now open the
+blue lock.
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.1",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé une
+Bombe !$0
+Utilise une Bombe
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.1.1",
+  skip = "all",
+  text = [[
+pour faire exploser
+un ennemi ou un
+obstacle.
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.2",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé 3
+Bombes !$0
+Utilise une Bombe
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.3",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé 8
+Bombes !$0
+Utilise une Bombe
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.1",
+  icon = "54",
+  skip = "all",
+  text = [[
+Tu as trouvé le Sac
+de Bombes !$0 Il
+contient 20 Bombes.
+Assigne-les à une
+touche et fais tout
+sauter !
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.2",
+  icon = "55",
+  skip = "current",
+  text = [[
+You found a Gold Bomb !$0
+
+
+You can now hold 10 more
+bombs in your bomb bag !
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.3",
+  icon = "56",
+  skip = "all",
+  text = [[
+Tu as trouvé le Sac
+de Bombes Géant !$0
+
+Il peut contenir
+jusqu'à 99 Bombes
+au lieu de 50 !
+]],
+}
+
+dialog{
+  id = "_treasure.bone_key.1",
+  icon = "73",
+  skip = "current",
+  text = [[
+You found the Boss Key ! $0
+
+
+You can now enter in
+the Boss's Lair !
+]],
+}
+
+dialog{
+  id = "_treasure.boomerang.1",
+  icon = "4",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Boomerang !$0
+
+Utilise-le pour
+immobiliser des
+ennemis à distance
+ou pour activer des
+mécanismes.
+]],
+}
+
+dialog{
+  id = "_treasure.boomerang.2",
+  icon = "35",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Super Boomerang !$0
+
+Il est plus rapide
+et va plus loin que
+le vieux !
+]],
+}
+
+dialog{
+  id = "_treasure.bow.1",
+  icon = "3",
+  skip = "current",
+  text = [[
+Tu as trouvé l'Arc !$0
+Tu peux vaincre les
+ennemis coriaces
+à distance et sans risque!
+Appuie sur D pour avoir
+accès à l'inventaire
+et assigne l'Arc et les
+Flèches à X ou V pour
+l'utiliser avec le bouton
+correspondant.
+]],
+}
+
+dialog{
+  id = "_treasure.cane_of_somaria.1",
+  icon = "15",
+  skip = "current",
+  text = [[
+Tu as trouvé la Canne de
+Somaria! $0
+
+Tu peux maintenant créer
+des blocs moyennant de la
+magie.
+... dommage que cet objet
+ne sert à rien dans ce
+donjon... ça te fait un bel
+écran d'inventaire plein
+on va dire...
+]],
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  icon = "71",
+  skip = "current",
+  text = [[
+You found the Compass ! $0
+
+
+Your position, the chests and
+the Key Item of the Dungeon
+appear now on your map. 
+Open it to take a look !
+]],
+}
+
+dialog{
+  id = "_treasure.green_key.1",
+  icon = "120",
+  skip = "current",
+  text = [[
+You found the Green
+Key ! $0
+
+You can now open the
+green lock.
+]],
+}
+
+dialog{
+  id = "_treasure.heart.1",
+  icon = "84",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un Coeur de Vie !
+Ton énergie est restaurée
+d'un coeur!
+]],
+}
+
+dialog{
+  id = "_treasure.heart_container.1",
+  icon = "78",
+  skip = "current",
+  text = [[
+You found an Heart
+Container ! $0
+
+Your energy is restored
+and your vitality
+increases !
+]],
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  icon = "5",
+  skip = "all",
+  text = [[
+Tu obtiens la lanterne!  $0
+Elle te permettra de 
+t'éclairer dans l'obscurité.
+]],
+}
+
+dialog{
+  id = "_treasure.map.1",
+  icon = "70",
+  skip = "current",
+  text = [[
+You found the Map ! $0
+
+
+You have now a map of the
+Dungeon. 
+
+You can also see the floors
+on the map screen.
+ 
+The darken rooms are the ones
+you didn't visit yet.
+]],
+}
+
+dialog{
+  id = "_treasure.quiver.2",
+  icon = "58",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Grand Carquois !$0
+
+Il peut contenir
+jusqu'à 60 Flèches
+au lieu de 30 !
+]],
+}
+
+dialog{
+  id = "_treasure.quiver.3",
+  icon = "59",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Carquois Géant !$0
+
+Il peut contenir
+jusqu'à 99 Flèches
+au lieu de 60 !
+]],
+}
+
+dialog{
+  id = "_treasure.red_key.1",
+  icon = "122",
+  skip = "current",
+  text = [[
+You found the Red
+Key ! $0
+
+You can now open the
+red lock.
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.1",
+  icon = "90",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis vert! $0
+Un rubis vert vaut 
+1 rubis vert!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.2",
+  icon = "91",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis bleu! $0
+Un rubis bleu vaut
+5 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.3",
+  icon = "92",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis rouge! $0
+Un rubis rouge vaut 
+20 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.4",
+  icon = "93",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis violet! $0
+Un rubis violet vaut
+50 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.5",
+  icon = "94",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis orange! $0
+Un rubis orange vaut
+100 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.6",
+  icon = "95",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis doré! $0
+Un rubis doré vaut
+300 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  icon = "63",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Bouclier !$0
+
+Tu peux repousser
+les attaques des
+ennemis !
+]],
+}
+
+dialog{
+  id = "_treasure.shield.2",
+  icon = "64",
+  skip = "current",
+  text = [[
+You found the Hylian
+Shield !$0
+
+You are now protected
+against magic projectiles !
+]],
+}
+
+dialog{
+  id = "_treasure.shield.3",
+  icon = "65",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Bouclier Miroir !$0
+
+Tu peux désormais
+contrer les lasers !
+]],
+}
+
+dialog{
+  id = "_treasure.small_key.1",
+  icon = "72",
+  skip = "all",
+  text = [[
+You got a Small Key !$0
+
+
+You can open a locked door in
+this dungeon.
+]],
+}
+
+dialog{
+  id = "_treasure.stone_beak.1",
+  icon = "44",
+  skip = "curent",
+  text = [[
+Tu as trouvé un Bec de 
+Pierre! $0
+Tu peux maintenant aller 
+consulter les Statues de 
+Hibou des lieux.
+]],
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  icon = "66",
+  skip = "all",
+  text = [[
+Tu as obtenu une Epée !$0
+Appuie sur C pour t'en
+servir et combattre tes
+ennemis. Maintient C
+enfoncé pour charger ton
+épée et relache après un
+certains temps pour faire
+une attaque circulaire
+dévastatrice!
+]],
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  icon = "67",
+  skip = "current",
+  text = [[
+You found the red
+Ring !$0
+
+Your attack increases.
+]],
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  icon = "67",
+  skip = "current",
+  text = [[
+Tu as trouvé la Bague
+rouge !$0
+
+Celle-ci te rendra 
+plus puissant.
+]],
+}
+
+dialog{
+  id = "_treasure.sword.4",
+  icon = "69",
+  skip = "all",
+  text = [[
+Tu as trouvé la Lame
+Purificatrice !$0
+La puissance de
+cette épée ultime
+dépasse
+l'entendement...
+]],
+}
+
+dialog{
+  id = "_treasure.trophy.1",
+  icon = "124",
+  skip = "current",
+  text = [[
+You found the Trophy of
+Victory ! $0
+
+You finished this Dungeon
+and earned the Zeldo's
+Challenge ! GG !
+]],
+}
+
+dialog{
+  id = "_treasure.tunic.2",
+  icon = "61",
+  skip = "current",
+  text = [[
+You found the blue
+Ring ! $0
+
+Your Defense increases.
+]],
+}
+
+dialog{
+  id = "_treasure.yellow_key.1",
+  icon = "123",
+  skip = "current",
+  text = [[
+You found the Yellow
+Key ! $0
+
+You can now open the
+yellow lock.
+]],
+}
+
+dialog{
+  id = "destructible_cannot_lift_should_cut",
+  skip = "all",
+  text = [[
+Il te faudrait quelque
+chose de tranchant pour
+couper ces buissons...
+]],
+}
+
+dialog{
+  id = "destructible_cannot_lift_still_too_heavy",
+  skip = "all",
+  text = [[
+C'est beaucoup trop
+lourd pour toi !
+]],
+}
+
+dialog{
+  id = "destructible_cannot_lift_too_heavy",
+  skip = "all",
+  text = [[
+Oh la la, c'est
+bien trop lourd !
+
+Tu n'y arriveras jamais
+rien que par la force
+de tes bras !
+]],
+}
+
+dialog{
+  id = "door.block.locked",
+  skip = "all",
+  text = [[
+Ce bloc possede un trou de
+serrure.Si tu avais une petite
+clé, tu pourrais avancer!
+]],
+}
+
+dialog{
+  id = "door.block.weaked",
+  skip = "all",
+  text = [[
+Ce bloc est fissuré... il
+serait sûrement destructible 
+par explosion...
+]],
+}
+
+dialog{
+  id = "door.closed.1",
+  skip = "all",
+  text = [[
+This door is closed. You can't
+open it from yourself.
+]],
+}
+
+dialog{
+  id = "door.closed.2",
+  skip = "all",
+  text = [[
+This door is locked.
+If you had a Small Key, you
+could open it !
+]],
+}
+
+dialog{
+  id = "door.closed.3",
+  skip = "all",
+  text = [[
+This door has a special lock...
+You can open it but only
+with the Boss Key !
+]],
+}
+
+dialog{
+  id = "door.closed.blue_key",
+  skip = "all",
+  text = [[
+This door has a special lock...
+You can open it but only
+with the Blue Key !
+]],
+}
+
+dialog{
+  id = "door.closed.chest",
+  skip = "all",
+  text = [[
+Hein ? C'est fermé à clé !
+Si tu avais une Grande Clé tu
+pourrais ouvrir !
+]],
+}
+
+dialog{
+  id = "door.closed.green_key",
+  skip = "all",
+  text = [[
+This door has a special lock...
+You can open it but only
+with the Green Key !
+]],
+}
+
+dialog{
+  id = "door.closed.red_key",
+  skip = "all",
+  text = [[
+This door has a special lock...
+You can open it but only
+with the Red Key !
+]],
+}
+
+dialog{
+  id = "door.closed.yellow_key",
+  skip = "all",
+  text = [[
+This door has a special lock...
+You can open it but only
+with the Yellow Key !
+]],
+}
+
+dialog{
+  id = "door.weak",
+  skip = "all",
+  text = [[
+This wall is weaked...
+Maybe there is a secret passage
+behind it...
+]],
+}
+
+dialog{
+  id = "sign_1",
+  skip = "current",
+  text = [[
+Welcome to you Link...
+My name is Zeldo, sorry to not
+be here by myself but I don't
+have the time to encounter you
+in person...
+
+In any case, welcome to my
+Challenge ! You saved Hyrule ?
+So let me give to you another
+test:
+Finish my own dungeon.
+
+To help you, here are the commands: 
+C for the sword,
+X et V for the assigned items,
+D to open the pause menu and
+Echap to open the save menu.
+
+You can change this commands if
+you don't like them and even
+play with a controller !
+Once you will finish the dungeon
+you will have the Trophy of
+Victory, proof of your success...
+Are you ready ?
+Mister Hero...
+Ah ah ah !
+I have a last tip for you: don't
+forget that weaked walls will do
+a certain type of sound of you
+hit them if your sword...
+If not, the weak wall is not
+breakable.
+Good luck to you and I hope you
+will survive in this dungeon :P
+]],
+}
+
+dialog{
+  id = "sign_2",
+  skip = "current",
+  text = [[
+Zeldo's Challenge: Dungeon 
+entrance (and beginning of
+the misery)
+]],
+}
+

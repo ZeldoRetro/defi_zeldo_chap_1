@@ -1,0 +1,36 @@
+text{ key = "dungeon_901.name", value = "Zeldo's Challenge" }
+text{ key = "menu_title.inventory", value = "INVENTORY" }
+text{ key = "menu_title.map", value = "MAP" }
+text{ key = "menu_title.options", value = "OPTIONS" }
+text{ key = "options_menu.back", value = "BACK" }
+text{ key = "options_menu.language", value = "LANGUAGE" }
+text{ key = "options_menu.music_volume", value = "MUSIC" }
+text{ key = "options_menu.sound_volume", value = "SOUND" }
+text{ key = "options_menu.title", value = "OPTIONS" }
+text{ key = "options_menu.video_filter", value = "VIDEO FILTER" }
+text{ key = "options_menu.video_filter_nil", value = "no" }
+text{ key = "pause.commands.action", value = "Action" }
+text{ key = "pause.commands.action_to_configure", value = "Press the Action key to modify this command" }
+text{ key = "pause.commands.commands", value = "Commands" }
+text{ key = "pause.commands.down", value = "Down" }
+text{ key = "pause.commands.item_1", value = "Left object" }
+text{ key = "pause.commands.item_2", value = "Right object" }
+text{ key = "pause.commands.joypad", value = "Joypad" }
+text{ key = "pause.commands.keyboard", value = "Keyboard" }
+text{ key = "pause.commands.left", value = "Left" }
+text{ key = "pause.commands.pause", value = "Pause" }
+text{ key = "pause.commands.press_new_key", value = "Press the new key to use" }
+text{ key = "pause.commands.right", value = "Right" }
+text{ key = "pause.commands.save", value = "Save" }
+text{ key = "pause.commands.sword", value = "Attack" }
+text{ key = "pause.commands.title", value = "COMMANDS" }
+text{ key = "pause.commands.up", value = "Up" }
+text{ key = "savegames_menu.cancel", value = "CANCEL" }
+text{ key = "savegames_menu.delete", value = "DELETE" }
+text{ key = "savegames_menu.delete_question", value = "ARE YOU SURE ?" }
+text{ key = "savegames_menu.load", value = "LOAD" }
+text{ key = "savegames_menu.no", value = "NO" }
+text{ key = "savegames_menu.options", value = "OPTIONS" }
+text{ key = "savegames_menu.records", value = "RECORDS" }
+text{ key = "savegames_menu.title", value = "FILE SELECTION" }
+text{ key = "savegames_menu.yes", value = "YES" }

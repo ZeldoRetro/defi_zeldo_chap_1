@@ -1,0 +1,854 @@
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+C'est un interrupteur
+de cristal. Frappe-le
+avec quelque chose...
+]],
+}
+
+dialog{
+  id = "_empty_chest",
+  icon = "41",
+  skip = "all",
+  text = [[
+Ce coffre est vide ! $0
+Tant pis pour toi !
+]],
+}
+
+dialog{
+  id = "_need_magic",
+  skip = "all",
+  text = [[
+Tu es a court de pouvoirs
+magiques ! Tu ne peux pas 
+utiliser cet objet maintenant !
+]],
+}
+
+dialog{
+  id = "_quit",
+  question = "1",
+  text = [[
+Voulez-vous continuer la partie ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "_save",
+  question = "1",
+  text = [[
+Voulez-vous sauvegarder ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.1",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé une
+Flèche !$0
+Utilise l'Arc et les
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.1.1",
+  skip = "all",
+  text = [[
+Flèches pour vaincre
+des ennemis à
+distance et sans risque!
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.2",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé 5
+Flèches !$0
+Utilise l'Arc et les
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.3",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé 10
+Flèches !$0
+Utilise l'Arc et les
+]],
+}
+
+dialog{
+  id = "_treasure.big_key.1",
+  icon = "73",
+  skip = "current",
+  text = [[
+Tu as trouvé la Grande Clé ! $0
+
+
+Tu peux maintenant te rendre
+dans le repaire du Boss.
+]],
+}
+
+dialog{
+  id = "_treasure.blue_key.1",
+  icon = "121",
+  skip = "current",
+  text = [[
+Tu as trouvé la Clé Bleue ! $0
+
+
+Cette clé te permettra 
+d'ouvrir la porte avec la
+serrure bleue.
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.1",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé une
+Bombe !$0
+Utilise une Bombe
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.1.1",
+  skip = "all",
+  text = [[
+pour faire exploser
+un ennemi ou un
+obstacle.
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.2",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé 3
+Bombes !$0
+Utilise une Bombe
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.3",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  skip = "all",
+  text = [[
+Tu as trouvé 8
+Bombes !$0
+Utilise une Bombe
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.1",
+  icon = "54",
+  skip = "all",
+  text = [[
+Tu as trouvé le Sac
+de Bombes !$0 Il
+contient 20 Bombes.
+Assigne-les à une
+touche et fais tout
+sauter !
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.2",
+  icon = "55",
+  skip = "current",
+  text = [[
+Tu as trouvé une
+Bombe d'or !$0
+
+Celle-ci te permettra
+de transporter 10 bombes
+supplémentaires !
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.3",
+  icon = "56",
+  skip = "all",
+  text = [[
+Tu as trouvé le Sac
+de Bombes Géant !$0
+
+Il peut contenir
+jusqu'à 99 Bombes
+au lieu de 50 !
+]],
+}
+
+dialog{
+  id = "_treasure.bone_key.1",
+  icon = "73",
+  skip = "current",
+  text = [[
+Tu as trouvé la Clé d'Or ! $0
+
+
+Tu peux maintenant accéder
+au Boss de ce donjon !
+]],
+}
+
+dialog{
+  id = "_treasure.boomerang.1",
+  icon = "4",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Boomerang !$0
+
+Utilise-le pour
+immobiliser des
+ennemis à distance
+ou pour activer des
+mécanismes.
+]],
+}
+
+dialog{
+  id = "_treasure.boomerang.2",
+  icon = "35",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Super Boomerang !$0
+
+Il est plus rapide
+et va plus loin que
+le vieux !
+]],
+}
+
+dialog{
+  id = "_treasure.bow.1",
+  icon = "3",
+  skip = "current",
+  text = [[
+Tu as trouvé l'Arc !$0
+Tu peux vaincre les
+ennemis coriaces
+à distance et sans risque!
+Appuie sur D pour avoir
+accès à l'inventaire
+et assigne l'Arc et les
+Flèches à X ou V pour
+l'utiliser avec le bouton
+correspondant.
+]],
+}
+
+dialog{
+  id = "_treasure.cane_of_somaria.1",
+  icon = "15",
+  skip = "current",
+  text = [[
+Tu as trouvé la Canne de
+Somaria! $0
+
+Tu peux maintenant créer
+des blocs moyennant de la
+magie.
+... dommage que cet objet
+ne sert à rien dans ce
+donjon... ça te fait un bel
+écran d'inventaire plein
+on va dire...
+]],
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  icon = "71",
+  skip = "current",
+  text = [[
+Tu obtiens la boussole ! $0
+
+
+Ta position ainsi que celle
+des coffres, du boss et de
+l'objet clé du donjon te
+sont révélées.
+]],
+}
+
+dialog{
+  id = "_treasure.green_key.1",
+  icon = "120",
+  skip = "current",
+  text = [[
+Tu as trouvé la Clé Verte ! $0
+
+
+Cette clé te permettra 
+d'ouvrir la porte avec la
+serrure verte.
+]],
+}
+
+dialog{
+  id = "_treasure.heart.1",
+  icon = "84",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un Coeur de Vie !
+Ton énergie est restaurée
+d'un coeur!
+]],
+}
+
+dialog{
+  id = "_treasure.heart_container.1",
+  icon = "78",
+  skip = "current",
+  text = [[
+Tu as trouvé un Réceptacle
+de Coeur ! $0
+
+Ton énergie est restaurée
+et tu obtiens un coeur
+supplémentaire !
+]],
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  icon = "5",
+  skip = "all",
+  text = [[
+Tu obtiens la lanterne!  $0
+Elle te permettra de 
+t'éclairer dans l'obscurité.
+]],
+}
+
+dialog{
+  id = "_treasure.map.1",
+  icon = "70",
+  skip = "current",
+  text = [[
+Tu obtiens la carte du
+donjon ! $0
+
+Tu peux à présent avoir accès 
+à la carte des lieux. 
+
+Tu peux également
+passer d'un étage à l'autre
+sur l'écran de carte.
+]],
+}
+
+dialog{
+  id = "_treasure.quiver.2",
+  icon = "58",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Grand Carquois !$0
+
+Il peut contenir
+jusqu'à 60 Flèches
+au lieu de 30 !
+]],
+}
+
+dialog{
+  id = "_treasure.quiver.3",
+  icon = "59",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Carquois Géant !$0
+
+Il peut contenir
+jusqu'à 99 Flèches
+au lieu de 60 !
+]],
+}
+
+dialog{
+  id = "_treasure.red_key.1",
+  icon = "122",
+  skip = "current",
+  text = [[
+Tu as trouvé la Clé Rouge ! $0
+
+
+Cette clé te permettra 
+d'ouvrir la porte avec la
+serrure rouge.
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.1",
+  icon = "90",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis vert! $0
+Un rubis vert vaut 
+1 rubis vert!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.2",
+  icon = "91",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis bleu! $0
+Un rubis bleu vaut
+5 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.3",
+  icon = "92",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis rouge! $0
+Un rubis rouge vaut 
+20 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.4",
+  icon = "93",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis violet! $0
+Un rubis violet vaut
+50 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.5",
+  icon = "94",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis orange! $0
+Un rubis orange vaut
+100 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.6",
+  icon = "95",
+  skip = "all",
+  text = [[
+Tu as trouvé
+un rubis doré! $0
+Un rubis doré vaut
+300 rubis verts!
+]],
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  icon = "63",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Bouclier !$0
+
+Tu peux repousser
+les attaques des
+ennemis !
+]],
+}
+
+dialog{
+  id = "_treasure.shield.2",
+  icon = "64",
+  skip = "current",
+  text = [[
+Tu as trouvé le
+Bouclier hylien !$0
+
+Tu es désormais protégé 
+contre les attaques 
+magiques !
+]],
+}
+
+dialog{
+  id = "_treasure.shield.3",
+  icon = "65",
+  skip = "all",
+  text = [[
+Tu as trouvé le
+Bouclier Miroir !$0
+
+Tu peux désormais
+contrer les lasers !
+]],
+}
+
+dialog{
+  id = "_treasure.small_key.1",
+  icon = "72",
+  skip = "current",
+  text = [[
+Tu as obtenu une petite clé !$0
+
+
+Elle doit servir à ouvrir
+une porte dans ce Donjon...
+]],
+}
+
+dialog{
+  id = "_treasure.stone_beak.1",
+  icon = "44",
+  skip = "curent",
+  text = [[
+Tu as trouvé un Bec de 
+Pierre! $0
+Tu peux maintenant aller 
+consulter les Statues de 
+Hibou des lieux.
+]],
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  icon = "66",
+  skip = "all",
+  text = [[
+Tu as obtenu une Epée !$0
+Appuie sur C pour t'en
+servir et combattre tes
+ennemis. Maintient C
+enfoncé pour charger ton
+épée et relache après un
+certains temps pour faire
+une attaque circulaire
+dévastatrice!
+]],
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  icon = "67",
+  skip = "current",
+  text = [[
+Tu as trouvé la Bague
+rouge !$0
+
+Celle-ci te rendra 
+plus puissant.
+]],
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  icon = "67",
+  skip = "current",
+  text = [[
+Tu as trouvé la Bague
+rouge !$0
+
+Celle-ci te rendra 
+plus puissant.
+]],
+}
+
+dialog{
+  id = "_treasure.sword.4",
+  icon = "69",
+  skip = "all",
+  text = [[
+Tu as trouvé la Lame
+Purificatrice !$0
+La puissance de
+cette épée ultime
+dépasse
+l'entendement...
+]],
+}
+
+dialog{
+  id = "_treasure.trophy.1",
+  icon = "124",
+  skip = "current",
+  text = [[
+Tu obtiens le Trophée
+de la Victoire ! $0
+
+Tu as terminé ce Donjon et
+réussi le défi de Zeldo !
+Bien joué !
+]],
+}
+
+dialog{
+  id = "_treasure.tunic.2",
+  icon = "61",
+  skip = "current",
+  text = [[
+Tu as trouvé la Bague
+bleue ! $0
+
+Celle-ci te rendra
+plus résistant.
+]],
+}
+
+dialog{
+  id = "_treasure.yellow_key.1",
+  icon = "123",
+  skip = "current",
+  text = [[
+Tu as trouvé la Clé Jaune ! $0
+
+
+Cette clé te permettra 
+d'ouvrir la porte avec la
+serrure jaune.
+]],
+}
+
+dialog{
+  id = "destructible_cannot_lift_should_cut",
+  skip = "all",
+  text = [[
+Il te faudrait quelque
+chose de tranchant pour
+couper ces buissons...
+]],
+}
+
+dialog{
+  id = "destructible_cannot_lift_still_too_heavy",
+  skip = "all",
+  text = [[
+C'est beaucoup trop
+lourd pour toi !
+]],
+}
+
+dialog{
+  id = "destructible_cannot_lift_too_heavy",
+  skip = "all",
+  text = [[
+Oh la la, c'est
+bien trop lourd !
+
+Tu n'y arriveras jamais
+rien que par la force
+de tes bras !
+]],
+}
+
+dialog{
+  id = "door.block.locked",
+  skip = "all",
+  text = [[
+Ce bloc possede un trou de
+serrure.Si tu avais une petite
+clé, tu pourrais avancer!
+]],
+}
+
+dialog{
+  id = "door.block.weaked",
+  skip = "all",
+  text = [[
+Ce bloc est fissuré... il
+serait sûrement destructible 
+par explosion...
+]],
+}
+
+dialog{
+  id = "door.closed.1",
+  skip = "all",
+  text = [[
+Cette porte est fermée. Tu ne 
+peux pas l'ouvrir de tes 
+mains.
+]],
+}
+
+dialog{
+  id = "door.closed.2",
+  skip = "all",
+  text = [[
+Cette porte est fermée a clé.
+Si tu avais une Petite Clé, tu
+pourrais l'ouvrir !
+]],
+}
+
+dialog{
+  id = "door.closed.3",
+  skip = "all",
+  text = [[
+Cette porte possède un verrou
+spécial... seule une Clé d'Or
+te permettra de l'ouvrir...
+]],
+}
+
+dialog{
+  id = "door.closed.blue_key",
+  skip = "all",
+  text = [[
+Cette porte possède un verrou
+bleu... seule une Clé Bleue
+te permettra de l'ouvrir.
+]],
+}
+
+dialog{
+  id = "door.closed.chest",
+  skip = "all",
+  text = [[
+Hein ? C'est fermé à clé !
+Si tu avais une Grande Clé tu
+pourrais ouvrir !
+]],
+}
+
+dialog{
+  id = "door.closed.green_key",
+  skip = "all",
+  text = [[
+Cette porte possède un verrou
+vert... seule une Clé Verte
+te permettra de l'ouvrir.
+]],
+}
+
+dialog{
+  id = "door.closed.red_key",
+  skip = "all",
+  text = [[
+Cette porte possède un verrou
+rouge... seule une Clé Rouge
+te permettra de l'ouvrir.
+]],
+}
+
+dialog{
+  id = "door.closed.yellow_key",
+  skip = "all",
+  text = [[
+Cette porte possède un verrou
+jaune... seule une Clé Jaune
+te permettra de l'ouvrir.
+]],
+}
+
+dialog{
+  id = "door.weak",
+  skip = "all",
+  text = [[
+Ce mur semble fissuré...
+peut-être qu'une explosion
+pourrait dévoiler un passage...
+]],
+}
+
+dialog{
+  id = "sign_1",
+  skip = "current",
+  text = [[
+Bienvenue a toi Link...
+Je me nomme Zeldo, désolé de
+t'écrire par moyen de pancarte
+mais je n'ai hélas pas le temps
+de venir te voir en personne...
+
+Je te souhaite la bienvenue dans
+mon Défi ! Tu as sauvé Hyrule ?
+Alors laisse-moi te proposer
+à mon tour une épreuve:
+Terminer le donjon dont l'entrée
+se trouve droit devant toi.
+Pour t'aider voici les commandes
+du jeu: C pour l'épée (on peut
+maintenir le bouton pour charger
+celle-ci),
+X et V pour les armes assignées,
+D pour ouvrir le menu Pause et
+Echap pour ouvrir le menu de
+sauvegarde.
+
+Il est possible de changer les
+touches par défaut si celles-ci
+ne te conviennent pas, et même
+de jouer avec une manette !
+On remercie Solarus pour ça.
+
+Une fois le Donjon terminé, tu
+obtiendras un Trophée, preuve
+de ta réussite...
+Alors, prêt ?
+Monsieur le Héros...
+Ah ah ah !
+Sinon vu que je suis gentil une
+dernière petite astuce: les
+fissures que tu verras dans le
+donjon ne sont pas forcément
+toutes sensibles à une explosion.
+N'oublie pas de taper dessus avec
+l'épée et d'écouter le son...
+Voilà je crois que tout est dit.
+Bon courage à toi en espérant
+que tu finiras ce donjon vivant :P
+]],
+}
+
+dialog{
+  id = "sign_2",
+  skip = "current",
+  text = [[
+Défi de Zeldo: Entrée du donjon
+(et début du supplice)
+]],
+}
+
