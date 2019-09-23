@@ -1,0 +1,7 @@
+animation{
+  name = "closed",
+  src_image = "entities/Full Hyrule.entities.png",
+  directions = {
+    { x = 336, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+  },
+}
