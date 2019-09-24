@@ -5915,18 +5915,6 @@ block{
 }
 
 destructible{
-  name = "auto_destructible_9",
-  layer = 1,
-  x = 1400,
-  y = 1085,
-  treasure_name = "arrow",
-  treasure_variant = 3,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  can_be_cut = true,
-}
-
-destructible{
   name = "auto_destructible_10",
   layer = 1,
   x = 1416,
@@ -7057,6 +7045,17 @@ dynamic_tile{
   width = 16,
   height = 32,
   pattern = "wall_pillar.1-5",
+}
+
+destructible{
+  name = "auto_destructible_19",
+  layer = 1,
+  x = 1400,
+  y = 1085,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  can_be_cut = true,
 }
 
 tile{

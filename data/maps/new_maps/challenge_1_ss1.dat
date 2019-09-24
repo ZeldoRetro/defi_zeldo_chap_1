@@ -15673,30 +15673,6 @@ destructible{
 }
 
 destructible{
-  name = "auto_destructible_30",
-  layer = 1,
-  x = 2504,
-  y = 813,
-  treasure_name = "arrow",
-  treasure_variant = 3,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "auto_destructible_31",
-  layer = 1,
-  x = 2504,
-  y = 829,
-  treasure_name = "arrow",
-  treasure_variant = 3,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  can_be_cut = true,
-}
-
-destructible{
   name = "auto_destructible_32",
   layer = 1,
   x = 2504,
@@ -17152,6 +17128,28 @@ sensor{
   y = 1693,
   width = 16,
   height = 16,
+}
+
+destructible{
+  name = "auto_destructible_34",
+  layer = 1,
+  x = 2504,
+  y = 829,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "auto_destructible_35",
+  layer = 1,
+  x = 2504,
+  y = 813,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  can_be_cut = true,
 }
 
 tile{
