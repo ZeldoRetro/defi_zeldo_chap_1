@@ -391,7 +391,6 @@ sound{ id = "world_warp", description = "world_warp" }
 sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
-item{ id = "arrow", description = "Arrow (x1, x5, x10)" }
 item{ id = "blue_key", description = "Clé bleue" }
 item{ id = "bomb", description = "Bomb (x1, x3, x8)" }
 item{ id = "bomb_bag", description = "Bomb bag (x10, x30, x99)" }
@@ -401,6 +400,7 @@ item{ id = "boomerang", description = "Boomerang" }
 item{ id = "boss_key", description = "grande clé" }
 item{ id = "compass", description = "Boussole" }
 item{ id = "fairy", description = "fée" }
+item{ id = "fire_rod", description = "baguette de feu" }
 item{ id = "green_key", description = "Clé verte" }
 item{ id = "heart", description = "Heart" }
 item{ id = "heart_container", description = "Conteneur de coeur" }
@@ -408,10 +408,8 @@ item{ id = "lamp", description = "lampe" }
 item{ id = "magic_bar", description = "barre magique" }
 item{ id = "magic_flask", description = "flasque magique" }
 item{ id = "map", description = "Carte" }
-item{ id = "quiver", description = "Carquois" }
 item{ id = "random", description = "???" }
 item{ id = "random - bombes", description = "???+bombes" }
-item{ id = "random - flèches", description = "???+flèches" }
 item{ id = "random - vie,magie", description = "??? +vie, magie" }
 item{ id = "red_key", description = "Clé rouge" }
 item{ id = "rupee", description = "Rupee" }

@@ -532,7 +532,7 @@ dialog{
   icon = "72",
   skip = "current",
   text = [[
-Tu as obtenu une petite clé !$0
+Tu as obtenu une Petite Clé !$0
 
 
 Elle doit servir à ouvrir
@@ -717,7 +717,7 @@ dialog{
   id = "door.closed.2",
   skip = "all",
   text = [[
-Cette porte est fermée a clé.
+Cette porte est fermée à clé.
 Si tu avais une Petite Clé, tu
 pourrais l'ouvrir !
 ]],

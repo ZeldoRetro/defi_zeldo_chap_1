@@ -11,6 +11,13 @@ properties{
   music = "retro_dungeon",
 }
 
+pickable{
+  layer = 0,
+  x = 1288,
+  y = 2157,
+  treasure_name = "fire_rod",
+}
+
 tile{
   layer = 1,
   x = 1504,
