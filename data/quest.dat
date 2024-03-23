@@ -6,7 +6,7 @@ quest{
   long_description = [[
 Zeldo (un Créateur fantasque) a entendu les exploits de Link en Hyrule et décide de le mettre a l'épreuve en lui proposant son propre donjon ! Link saura-t-il réussir le Défi de Zeldo ?]],
   author = "ZeldoRetro",
-  quest_version = "1.2.0",
+  quest_version = "1.2.1",
   release_date = "",
   website = "",
   normal_quest_size = "320x240",
